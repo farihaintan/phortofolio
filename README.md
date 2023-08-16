@@ -1,3 +1,3 @@
 # phortofolio
 
-berisi phortofolio saya di bidang qulaity Assurance 
+berisi phortofolio saya di bidang qulity Assurance 
