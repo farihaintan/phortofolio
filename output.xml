@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230813 16:06:38.119" rpa="false" schemaversion="4">
+<suite id="s1" name="Test1" source="d:\selenium python\robot framework\test1.robot">
+<test id="s1-t1" name="Buka DemoQA" line="6">
+<kw name="Input Field Name" library="steps1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_DemoQA}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230813 16:06:38.523" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/automation-practice-form'.</msg>
+<status status="PASS" starttime="20230813 16:06:38.520" endtime="20230813 16:06:51.729"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${text}</arg>
+<arg>Fariha</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230813 16:06:51.737" level="INFO">Typing text 'Fariha' into text field 'id=firstName'.</msg>
+<status status="PASS" starttime="20230813 16:06:51.733" endtime="20230813 16:06:52.025"/>
+</kw>
+<status status="PASS" starttime="20230813 16:06:38.518" endtime="20230813 16:06:52.027"/>
+</kw>
+<status status="PASS" starttime="20230813 16:06:38.515" endtime="20230813 16:06:52.029"/>
+</test>
+<status status="PASS" starttime="20230813 16:06:38.128" endtime="20230813 16:06:52.040"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
